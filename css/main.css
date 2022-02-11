@@ -1,3 +1,46 @@
 body {
 background-color: rgb(37, 41, 28);
 }
+
+nav {
+    padding: 35px;
+
+}
+
+ul {
+    background-color: #000000;
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(160, 151, 66);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  body, html {
+    height: 100%;
+}
+
+.hero-image {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/b3.jpg");
+height: 70%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
