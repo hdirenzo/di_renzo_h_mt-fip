@@ -3,7 +3,8 @@ background-color: rgb(37, 41, 28);
 }
 
 nav {
-    padding: 35px;
+    padding-top: 25px;
+    padding-bottom: 10px;
 
 }
 
@@ -23,7 +24,7 @@ ul {
     display: block;
     color: rgb(160, 151, 66);
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 70px;
     text-decoration: none;
   }
   
@@ -44,6 +45,6 @@ height: 70%;
 background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
+  position: relative;
 }
 
