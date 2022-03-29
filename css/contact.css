@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+nav {
+    background-color: grey;
+    padding: 25px;
+    margin-top: 50px;
+
+}
+button {
+    background-color: #808080; 
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+
+}
+form{
+    margin-left: 100px;
+   
+}
+h2 {
+    margin-left: 100px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+
+}
+li {
+    float: left;
+    display: block;
+    color: rgb(189, 192, 157);
+    text-align: center;
+    padding-right: 160px;
+    font-size: 28px;
+   
+    
+}
+
+#note {
+    padding-bottom: 280px;
+    margin-bottom: 30px;
+}
+#name {
+    margin-bottom: 30px;
+}
+#phone {
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #808080;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#address {
+    padding-right: 550px;
+}
+#phoneemail {
+    padding-right: 550px;
+}
+
+p {
+    text-align: center;
+}
+#footerlogo {
+    margin-left: 1500px;
+}
+#footlinks {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+
+@media screen and (min-width: 600px) {
+}
+
