@@ -4,8 +4,15 @@ nav {
     background-color: grey;
     padding: 25px;
     margin-top: 50px;
+}
+nav a {
+    color: #BDC09D;
+    text-decoration: none;
+    font-size: 20px;
+   
 
 }
+
 button {
     background-color: #808080; 
     border: none;
@@ -19,6 +26,7 @@ button {
     margin-left: 100px;
     margin-top: 45px;
     margin-bottom: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
 form{
@@ -50,7 +58,7 @@ li {
     display: block;
     color: rgb(189, 192, 157);
     text-align: center;
-    padding-right: 160px;
+    padding-right: 5%;
     font-size: 28px;
    
     
@@ -69,6 +77,10 @@ li {
 
 footer{
     background-color: #808080;
+    display: flex;
+    justify-content: space-between;
+  
+  
 }
 
 .info {
@@ -79,26 +91,59 @@ footer{
     padding-bottom: 50px;
 }
 #address {
-    padding-right: 550px;
+    padding-right: 23%;
 }
 #phoneemail {
-    padding-right: 550px;
+    padding-right: 23%;
 }
 
 p {
     text-align: center;
 }
-#footerlogo {
-    margin-left: 1500px;
-}
+
 #footlinks {
     display: flex;
     flex-direction: column;
+    float: left;
  
 }
 
 
-
-@media screen and (min-width: 600px) {
+#footlinks li {
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
+
+@media screen and (max-width: 641px) {
+
+
+footer{
+
+display:none
+}
+
+.info {
+    display:none
+   }
+
+   #note{
+    width:70%
+}
+    #name {
+width: 70%;
+    }
+#phone {
+    width: 70%;
+}
+#email {
+    width: 70%;
+}
+ 
+ul {
+    display: flex;
+    flex-direction: column;
+}
+}

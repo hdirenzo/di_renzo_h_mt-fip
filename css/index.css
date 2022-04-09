@@ -1,9 +1,11 @@
 div {
     width: 300px;
-    height: 160px;
+    height: 430px;
     padding: 50px;
-    margin: 250px;
+    margin: 70px;
+    margin-right: 80px;
     background-color: #808080;
+    text-align: center;
     
   }
 
@@ -41,5 +43,9 @@ div {
 
     
   }
+  img {
+    margin-left: 30px;
+  }
+
 
   
