@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/checkout.css">
+    <title>Create an Account/ Log In</title>
+</head>
+
+<body>
+    <!----header/nav---->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="community.html">Our Community</a></li>
+                <li><a href="products.html">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-----pfp and info------->
+    <!-------order summary------->
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="/action_page.php">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Billing Address</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Hannah Mary">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="hannahmary@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="123 Shakedown Street">
+                            <label for="city"><i class="fa fa-institution"></i> City</label>
+                            <input type="text" id="city" name="city" placeholder="London">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="state">Province</label>
+                                    <input type="text" id="state" name="state" placeholder="ON">
+                                </div>
+                                <div class="col-50">
+                                    <label for="zip">Postal Code</label>
+                                    <input type="text" id="zip" name="zip" placeholder="N5R 5G9">
+                                </div>
+                            </div>
+                        </div>
+                        <!---payment---->
+                        <div class="col-50">
+                            <h3>Payment</h3>
+
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="Hannah D. Mary">
+                            <label for="ccnum">Card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="0000-1111-2222-1234">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="05/24">
+
+                            <div class="col-50">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="905">
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+            <input type="submit" value="Purchase" class="btn">
+            </form>
+        </div>
+    </div>
+
+    <div class="col-25">
+        <div class="container">
+            <h4>Cart
+                <span class="price" style="color:black">
+                    <i class="fa fa-shopping-cart"></i>
+                    <b>4</b>
+                </span>
+            </h4>
+            <p><a href="#">Mericola's Flower Pattern iPhone 13 Case</a> <span class="price">$19.99</span></p>
+            <p><a href="#">Mericola's Unisex Baseball Cap</a> <span class="price">$11.99</span></p>
+            <p><a href="#">Mericola's Pub Ale Original 355mL x 6</a> <span class="price">$18.99</span></p>
+            <p><a href="#">Shipping</a> <span class="price">$8.99</span></p>
+            <p><a href="#">Taxes</a> <span class="price">$17.98</span></p>
+
+
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>CAD $77.94</b></span></p>
+        </div>
+    </div>
+    </div>
+    <!------item input------->
+    <!-----button--------->
+    <!------footer----->
