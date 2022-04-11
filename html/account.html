@@ -5,43 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="../css/account.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css" media="screen">
     <title>Create an Account/ Log In</title>
 </head>
 
 <body>
     <!----header/nav---->
     <header>
-        <nav>
-            <ul>
-                <li><a href="main.html">Home</a></li>
-                <li><a href="about.html">Our Story</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="community.html">Our Community</a></li>
-                <li><a href="products.html">Products</a></li>
+
+        <nav class="flex justify-even" id="headerlinks">
+            <ul class="flex justify-center" id="nll">
+                <li><a href="../html/main.html">Home</a></li>
+                <li><a href="../html/dummy_page.html">Our Story</a></li>
+                <li><a href="../html/contact.html">Contact Us</a></li>
+                <li><a href="../html/community.html">Our Community</a></li>
+                <li><a href="../html/dummy_page.html">Products</a></li>
             </ul>
+
+            <a href="../html/account.html"> <img class="icontop" src="../images/img_icon.png" alt="icontop"></a>
+
+            </div>
         </nav>
     </header>
     <!----pfp---->
-    <img src="../images/img_icon.png" alt="icon" width="120px" height="120px">
-    <!----username and email----->
-    <!------items in cart------>
-    <img src="../images/img_hat.svg" alt="hat" width="250px" height="250px">
-    <img src="../images/img_6pack.jpg" alt="6pack" width="300px" height="300px">
-    <img src="../images/img_case.png" alt="case" width="100px" height="200px">
-    <!------button----->
-    <!---footer---->
-    <nav>
-        <ul>
-            <li><a href="main.html">Home</a></li>
-            <li><a href="about.html">Our Story</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="community.html">Our Community</a></li>
-            <li><a href="products.html">Products</a></li>
-        </ul>
-    </nav>
-    <img src="../images/Logo-01.svg" alt="logo" width="350px" height="250px">
 
-</body>
+    <!----username and email----->
+    <img class="iconimg" src="../images/img_icon.png" alt="icon">
+    <h1>Account Name</h1>
+    <p>example@hotmail.com</p>
+    <p>Items in Cart (3):</p>
+    <!------items in cart------>
+    <div class="items">
+        <figure>
+            <img src="../images/img_hat.svg" alt="hat" width="250px" height="250px">
+            <figcaption>Mericola's Unisex Baseball Cap</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/img_6pack.jpg" alt="6pack" width="300px" height="300px">
+            <figcaption>Mericola's Pub Ale Original</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/img_case.png" alt="case" width="100px" height="200px">
+            <figcaption>Mericola's Flower iPhone <br>13 Case</figcaption>
+        </figure>
+    </div>
+    <!------button----->
+    <button type="button"><a href="../html/checkout.html">Checkout</a></button>
+    <!---footer---->
+    <footer>
+        <div id="footernav">
+            <nav>
+                <ul id="footlinks">
+                    <li><a href="../html/main.html">Home</a></li>
+                    <li><a href="../html/dummy_page.html">Our Story</a></li>
+                    <li><a href="../html/contact.html">Contact Us</a></li>
+                    <li><a href="../html/community.html">Our Community</a></li>
+                    <li><a href="../html/dummy_page.html">Products</a></li>
+
+                </ul>
+                <img src="../images/image_logo.svg" alt="logo" id="footlogo" width="250px" height="190px">
+            </nav>
+
+        </div>
+    </footer>
+
 
 </html>

@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+
+}
+
+.icontop {
+    width: 40px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+nav a {
+    color: #BDC09D;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul {
+    /* Flex container properties */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    /* Flex child properties */
+    flex: auto;
+}
+
+li {
+    display: block;
+    color: rgb(189, 192, 157);
+    text-align: center;
+    padding-right: 5%;
+    font-size: 28px;
+}
+
+footer {
+    background-color: #808080;
+    justify-content: space-between;
+
+
+}
+
+#footlinks {
+    display: flex;
+    flex-direction: column;
+    float: left;
+
+}
+
+
+#footlinks li {
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+button {
+    background-color: #4c7738;
+    border: none;
+    color: #ffffff;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  
+footer {
+    display: none;
+  }

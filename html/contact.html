@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../css/contact.css" media="screen">
+    <script>
+
+        function privpop() {
+            alert("There are no Terms and Conditions, just saying HI! 	(´• ω •`)ﾉ");
+        }
+    </script>
     <title>Contact Us!</title>
 </head>
 <!-----------Header/nav-->
@@ -14,19 +21,19 @@
 <body>
     <nav class="flex justify-even" id="headerlinks">
         <ul class="flex justify-center" id="nll">
-            <li><a href="url">Home</a></li>
-            <li><a href="url">Our Story</a></li>
-            <li><a href="url">Contact Us</a></li>
-            <li><a href="url">Our Community</a></li>
-            <li><a href="#">Products</a></li>
-
+            <li><a href="../html/main.html">Home</a></li>
+            <li><a href="../html/dummy_page.html">Our Story</a></li>
+            <li><a href="../html/contact.html">Contact Us</a></li>
+            <li><a href="../html/community.html">Our Community</a></li>
+            <li><a href="../html/dummy_page.html">Products</a></li>
         </ul>
-        <div class="flex justify-end" id="icont">
+
+        <a href="../html/account.html"><img class="icontop" src="../images/img_icon.png" alt="icontop"></a>
 
         </div>
     </nav>
     <!-----------logo-->
-    <img src="images/image_logo.svg" alt="logo" class="logo" width="400px" height="280px">
+    <img src="../images/Logo-01.svg" alt="logo" class="logo" width="400px" height="280px">
     <!----Info boxes---->
     <div class="info">
         <div id="address">
@@ -66,17 +73,21 @@
 
     </form>
     <!---button-->
-    <button type="button">Send</button>
+    <button type="button"><a href="../html/dummy_page.html">Send</a></button>
+
+    <a href="javascript:privpop();">Terms and Conditions</a>
     <!----footer--->
+
+
     <footer>
         <div id="footernav">
             <nav>
                 <ul id="footlinks">
-                    <li><a href="url">Home</a></li>
-                    <li><a href="url">Our Story</a></li>
-                    <li><a href="url">Contact Us</a></li>
-                    <li><a href="url">Our Community</a></li>
-                    <li><a href="url">Products</a></li>
+                    <li><a href="../html/main.html">Home</a></li>
+                    <li><a href="../html/dummy_page.html">Our Story</a></li>
+                    <li><a href="../html/contact.html">Contact Us</a></li>
+                    <li><a href="../html/community.html">Our Community</a></li>
+                    <li><a href="../html/dummy_page.html">Products</a></li>
                 </ul>
                 <img src="../images/image_logo.svg" alt="logo" id="footlogo" width="250px" height="190px">
             </nav>
@@ -84,5 +95,7 @@
         </div>
     </footer>
 </body>
+
+
 
 </html>
