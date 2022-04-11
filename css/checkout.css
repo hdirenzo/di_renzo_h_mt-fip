@@ -104,15 +104,13 @@ span.price {
 
 
 @media (max-width: 600px) {
-    .row {
-        flex-direction: column;
-    }
 
-    .col-25 {
-        margin-bottom: 20em;
-    }
-
-    .container {
+    .col-75 {
         display: none;
     }
-  
+
+    .bottombutton {
+        display: block;
+        padding-left: 150px;
+    }
+}
